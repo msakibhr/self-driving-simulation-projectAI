@@ -1,0 +1,25 @@
+PLEASE go to https://github.com/msakibhr/self-driving-simulation-projectAI to get the UPDATED VERSION always and read in details how did we do the project: "Self Driving Simulation using CNN NVIDIA's Model TensorFlow".
+
+GitHub Repo link: https://github.com/msakibhr/self-driving-simulation-projectAI
+
+Simulator link: https://github.com/udacity/self-driving-car-sim [Choose "Term 1 Version 2, 2/07/17 Windows" to download]
+
+Softwares/apps required to install:
+Python
+Python Interpreter
+Python IDE
+
+Libraries/Dependencies required to install:
+
+opencv-python
+pandas
+numpy
+matplotlib
+sklearn
+tensorflow
+imgaug
+socketio
+eventlet
+flask
+
+Run the TestSimulation.py file. Open the beta_simulator.exe (Download the simulator from here: https://github.com/udacity/self-driving-car-sim [Select the "Term 1 Windows Version 2, 2/07/17" to download, and then extract the zip file to get the exe file]). Select a track and then select autonomous mode. Now watch the car being driven by itself, autonomously!
