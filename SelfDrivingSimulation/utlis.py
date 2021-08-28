@@ -111,9 +111,9 @@ def preProcessing(img):
     img = img/255
     return img
 
-imgRe = preProcessing(mpimg.imread('test.jpg'))
-plt.imshow(imgRe)
-plt.show()
+# imgRe = preProcessing(mpimg.imread('test.jpg'))
+# plt.imshow(imgRe)
+# plt.show()
 
 def batchGen(imagesPath, steeringList, batchSize, trainFlag):
     while True:
