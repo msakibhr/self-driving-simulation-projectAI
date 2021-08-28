@@ -1,16 +1,15 @@
 PLEASE go to https://github.com/msakibhr/self-driving-simulation-projectAI to get the UPDATED VERSION always and read in details how did we do the project: "Self Driving Simulation using CNN NVIDIA's Model TensorFlow".
 
-GitHub Repo link: https://github.com/msakibhr/self-driving-simulation-projectAI
+GitHub Repoistory link: https://github.com/msakibhr/self-driving-simulation-projectAI
 
 Simulator link: https://github.com/udacity/self-driving-car-sim [Choose "Term 1 Version 2, 2/07/17 Windows" to download]
 
 Softwares/apps required to install:
-Python
+Python (Better to install a slightly older, stable version like python 3.7.6) 
 Python Interpreter
-Python IDE
+Python IDE (We used PyCharm)
 
 Libraries/Dependencies required to install:
-
 opencv-python
 pandas
 numpy
@@ -18,8 +17,16 @@ matplotlib
 sklearn
 tensorflow
 imgaug
-socketio
+python-socketio 4.2.1
 eventlet
 flask
 
-Run the TestSimulation.py file. Open the beta_simulator.exe (Download the simulator from here: https://github.com/udacity/self-driving-car-sim [Select the "Term 1 Windows Version 2, 2/07/17" to download, and then extract the zip file to get the exe file]). Select a track and then select autonomous mode. Now watch the car being driven by itself, autonomously!
+Download the simulator from here: https://github.com/udacity/self-driving-car-sim [Select the "Term 1 Windows Version 2, 2/07/17" to download, and then extract the zip file to get the beta_simulator.exe file.]
+
+To collect the dataset (images & driving log), please go to the GitHub Repo link: https://github.com/msakibhr/self-driving-simulation-projectAI/tree/main/SelfDrivingSimulation/myData
+
+You may also create and capture the data by your own! For this, please open beta_simulator.exe, click "Play!", select a Track and then select the TRAINING MODE. By these, you will be taken to the driving environment. Click the "RECORD" button, select Output Folder, and then again press the "RECORD" button when you are ready. Now Drive 3 to 5 laps, pause to save/capture data, then turn around, record again and drive 3 to 5 laps, pause to save/capture data. At the selected folder, there will be an IMG folder containing huge amount of images, and a driving_log.csv file. Move these contents to "myData" folder if needed.
+
+Then you have to run TrainingSimulation.py first to train and save the model, and then have to run TestSimulation.py to test it.
+
+To test the model, run the TestSimulation.py file. Open the beta_simulator.exe. Select a Track and then select the AUTONOMOUS MODE. Now watch the car being driven by itself, autonomously!
