@@ -25,7 +25,7 @@ Download the simulator from here: https://github.com/udacity/self-driving-car-si
 
 To collect the dataset (images & driving log), please go to the GitHub Repo link: https://github.com/msakibhr/self-driving-simulation-projectAI/tree/main/SelfDrivingSimulation/myData
 
-You may also create and capture the data by your own! For this, please open beta_simulator.exe, click "Play!", select a Track and then select the TRAINING MODE. By these, you will be taken to the driving environment. Click the "RECORD" button, select Output Folder, and then again press the "RECORD" button when you are ready. Now Drive 3 to 5 laps, pause to save/capture data, then turn around, record again and drive 3 to 5 laps, pause to save/capture data. At the selected folder, there will be an IMG folder containing huge amount of images, and a driving_log.csv file. Move these contents to "myData" folder if needed.
+You may also create and capture the data by your own! For this, please open beta_simulator.exe, click "Play!", select a Track and then select the TRAINING MODE. By these, you will be taken to the driving environment. Click the "RECORD" button, select Output Folder, and then again press the "RECORD" button when you are ready. Now Drive 3 to 5 laps, pause to save/capture data, then turn around, record again and drive 3 to 5 laps, pause to save/capture data. At the selected folder, there will be an IMG folder containing thousands of images, and a driving_log.csv file. Move these contents to "myData" folder if needed.
 
 Then you have to run TrainingSimulation.py first to train and save the model, and then have to run TestSimulation.py to test it.
 
